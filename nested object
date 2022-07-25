@@ -38,7 +38,7 @@ a:{
           {
           object=value;
           }
-          print (getobjectkeys(obj, a### b### c)));
-          Print(getobjectkeys(object, x###, y###,z));
+          console.output(getobjectkeys(obj, a### b### c)));
+          console.output(getobjectkeys(object, x###, y###,z));
           
          
