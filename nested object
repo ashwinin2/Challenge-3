@@ -1,0 +1,44 @@
+####We have a nested object, we would like a function that you pass in the object and a key and get back the value. How this is implemented is up to you.
+Example Inputs
+object = {“a”:{“b”:{“c”:”d”}}}
+key = a/b/c
+object = {“x”:{“y”:{“z”:”a”}}}
+key = x/y/z
+value = a  
+#######
+
+So according to this problem statement, we can 
+
+let object ={ 
+
+a:{
+
+   “b”:{
+
+         “c”:”d”
+         
+         },
+         x:{
+         
+            y:{
+                z:a},
+         
+         
+         }
+         Object nested= True
+         
+         }
+      Function getobjectkeys(object, key)
+         keys=key.split('###');
+         for (let Ashukey of keys)
+         {
+           for( let(objectkey, value) of object.valuesentered)
+          {
+          if(!keys(objectkey)
+          {
+          object=value;
+          }
+          print (getobjectkeys(obj, a### b### c)));
+          Print(getobjectkeys(object, x###, y###,z));
+          
+         
